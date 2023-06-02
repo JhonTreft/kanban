@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+$family-sans-serif:'Nunito', sans-serif;
+
+
+
+/* Update some  of Bulma's Components Variables */
+
+$control-border-width:2px;
+$input-border-color: transparent;
+$input-shadow:none;
+
+
+/* GLOBAL STYLES */
+
+html, body{
+  height: 100%;
+}
+
+
+html{
+  background: url('./assets/imgs/background.svg');
+  background-size: cover;
+
+  overflow-y: auto !important;
+
+}
